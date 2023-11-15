@@ -1,0 +1,28 @@
+{
+  "name": "zce.me",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "velite --clean",
+    "format": "prettier . --write"
+  },
+  "prettier": "@zce/prettier-config",
+  "dependencies": {
+    "esbuild": "^0.19.5",
+    "mdast-util-definitions": "^6.0.0",
+    "mdx-bundler": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@zce/prettier-config": "latest",
+    "prettier": "latest",
+    "rehype-stringify": "latest",
+    "remark-parse": "latest",
+    "remark-rehype": "latest",
+    "tsx": "latest",
+    "typescript": "latest",
+    "unified": "latest",
+    "unist-util-visit": "latest",
+    "velite": "file:../velite"
+  }
+}
