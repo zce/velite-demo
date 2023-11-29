@@ -16,6 +16,7 @@
     "@fal-works/esbuild-plugin-global-externals": "^2.1.2",
     "@mdx-js/esbuild": "^3.0.0",
     "@mdx-js/mdx": "^3.0.0",
+    "chokidar": "^3.5.3",
     "mdx-bundler": "^10.0.1",
     "next": "^14.0.3",
     "react": "^18.2.0",
