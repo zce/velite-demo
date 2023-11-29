@@ -5,7 +5,7 @@ export default defineConfig({
     pages: {
       name: 'Page',
       pattern: 'pages/**/*.md',
-      fields: s.object({
+      schema: s.object({
         title: s.string().max(99),
         slug: s.slug('global'),
         code: s.mdx()
